@@ -27,6 +27,9 @@ importers:
         specifier: latest
         version: 4.4.5(vue@3.5.11)
     devDependencies:
+      '@iconify-json/devicon-plain':
+        specifier: ^1.2.4
+        version: 1.2.4
       '@nuxtjs/tailwindcss':
         specifier: ^6.12.1
         version: 6.12.1(magicast@0.3.5)(rollup@4.24.0)
@@ -840,6 +843,9 @@ packages:
     resolution: {integrity: sha512-AiXO/bfe9bmxBjxxtYxFAXGZvMaN5s8kO+jBHAJCON8rJoB5YS/D6X7ZNc6XQkuHNmyl4CYaMI1fJ/Gn27RGGw==}
     engines: {node: '>=6'}
     hasBin: true
+
+  '@iconify-json/devicon-plain@1.2.4':
+    resolution: {integrity: sha512-zJEj6CFhRytWWEFU58cb4qccVXpGDKxhlyaIRspJuRh2nlu2oz75lZgw6C9u8yGOT0X8DTO/RbXN1rnYmonogg==}
 
   '@iconify/collections@1.0.470':
     resolution: {integrity: sha512-6N1f1iNMNWvM56pUhcv+0TSP6Apl2VRfejtZH8h9H8fMRiDsROWxeQeEBxI394QnVWrOyoK1XXnNyVbn6xlF6A==}
@@ -4581,6 +4587,10 @@ snapshots:
       long: 5.2.3
       protobufjs: 7.4.0
       yargs: 17.7.2
+
+  '@iconify-json/devicon-plain@1.2.4':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify/collections@1.0.470':
     dependencies:
