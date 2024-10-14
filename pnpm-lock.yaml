@@ -30,6 +30,9 @@ importers:
       '@iconify-json/devicon-plain':
         specifier: ^1.2.4
         version: 1.2.4
+      '@iconify-json/fa6-brands':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@nuxtjs/tailwindcss':
         specifier: ^6.12.1
         version: 6.12.1(magicast@0.3.5)(rollup@4.24.0)
@@ -846,6 +849,9 @@ packages:
 
   '@iconify-json/devicon-plain@1.2.4':
     resolution: {integrity: sha512-zJEj6CFhRytWWEFU58cb4qccVXpGDKxhlyaIRspJuRh2nlu2oz75lZgw6C9u8yGOT0X8DTO/RbXN1rnYmonogg==}
+
+  '@iconify-json/fa6-brands@1.2.1':
+    resolution: {integrity: sha512-b/o9bDLZCP8qJV2dydewH+OWrpqmX94b7jHYnqzKaVpbuRRQX/qA9AROsy7rqHYup8fN2fCElQHvm6OYFmjkEA==}
 
   '@iconify/collections@1.0.470':
     resolution: {integrity: sha512-6N1f1iNMNWvM56pUhcv+0TSP6Apl2VRfejtZH8h9H8fMRiDsROWxeQeEBxI394QnVWrOyoK1XXnNyVbn6xlF6A==}
@@ -4589,6 +4595,10 @@ snapshots:
       yargs: 17.7.2
 
   '@iconify-json/devicon-plain@1.2.4':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/fa6-brands@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
 
