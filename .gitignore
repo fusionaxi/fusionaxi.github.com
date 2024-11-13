@@ -23,5 +23,8 @@ logs
 .env.*
 !.env.example
 
+# NPM
+package-lock.json
+
 # Wrangler 
 .wrangler
