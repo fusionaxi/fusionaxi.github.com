@@ -2,7 +2,9 @@ import type { Config } from 'tailwindcss';
 import * as animate from 'tailwindcss-animate';
 
 export default {
-  content: ['./src/**/*.{html,js,jsx,ts,tsx,vue,vuex}'],
+  content: [
+    './src/**/*.{html,js,jsx,ts,tsx,vue,vuex}'
+  ],
   darkMode: 'class',
   theme: {
     container: {
