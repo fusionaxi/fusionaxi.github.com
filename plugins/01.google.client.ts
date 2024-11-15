@@ -1,16 +1,16 @@
-import { initializeApp } from 'firebase/app';
-import { getAnalytics } from 'firebase/analytics';
+import { initializeApp } from 'firebase/app'
+import { getAnalytics } from 'firebase/analytics'
 
 export default defineNuxtPlugin(() => {
-  const config = useRuntimeConfig().public.firebase;
+  const config = useRuntimeConfig().public.firebase
 
   // Google Analytics configuration
   function gtag(...args) {
-    window.dataLayer.push(args);
+    window.dataLayer.push(args)
   }
-  window.dataLayer = window.dataLayer || [];
-  gtag('js', new Date());
-  gtag('config', config.measurementId);
+  window.dataLayer = window.dataLayer || []
+  gtag('js', new Date())
+  gtag('config', config.measurementId)
   useHead({
     script: [
       {
@@ -18,11 +18,11 @@ export default defineNuxtPlugin(() => {
         async: true
       }
     ]
-  });
+  })
 
   // Google Firebase configuration
-  const app = initializeApp(config);
-  const analytics = getAnalytics(app);
+  const app = initializeApp(config)
+  const analytics = getAnalytics(app)
   return {
     provide: {
       fire: {
@@ -30,5 +30,5 @@ export default defineNuxtPlugin(() => {
         analytics: analytics
       }
     }
-  };
-});
+  }
+})

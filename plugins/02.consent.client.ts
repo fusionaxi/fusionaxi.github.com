@@ -10,5 +10,5 @@ export default defineNuxtPlugin(() => {
         'data-cmp-codesrc': '16'
       }
     ]
-  });
-});
+  })
+})

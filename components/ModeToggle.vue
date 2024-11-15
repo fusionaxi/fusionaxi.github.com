@@ -1,9 +1,9 @@
 <script setup lang="ts">
-const mode = useColorMode();
+const mode = useColorMode()
 
 const changeMode = (name: string) => {
-  mode.preference = name;
-};
+  mode.preference = name
+}
 </script>
 
 <template>

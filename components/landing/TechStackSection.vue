@@ -1,43 +1,55 @@
 <script setup lang="ts">
 interface TechStackProps {
-  icon: string;
-  name: string;
+  icon: string
+  name: string
 }
 
-const techStacks: TechStackProps[] = [{
-  icon: 'devicon-plain:java',
-  name: 'Java'
-}, {
-  icon: 'devicon-plain:kotlin',
-  name: 'Kotlin'
-}, {
-  icon: 'devicon-plain:quarkus',
-  name: 'Quarkus'
-}, {
-  icon: 'devicon-plain:spring',
-  name: 'Spring'
-}, {
-  icon: 'devicon-plain:nodejs-wordmark',
-  name: 'NodeJS'
-}, {
-  icon: 'devicon-plain:vuejs',
-  name: 'Vue 3'
-}, {
-  icon: 'devicon-plain:nuxtjs',
-  name: 'Nuxt 3'
-}, {
-  icon: 'devicon-plain:javascript',
-  name: 'Javascript'
-}, {
-  icon: 'devicon-plain:typescript',
-  name: 'Typescript'
-}, {
-  icon: 'devicon-plain:rust',
-  name: 'Rust'
-}, {
-  icon: 'devicon-plain:css3-wordmark',
-  name: 'CSS 3'
-}];
+const techStacks: TechStackProps[] = [
+  {
+    icon: 'devicon-plain:java',
+    name: 'Java'
+  },
+  {
+    icon: 'devicon-plain:kotlin',
+    name: 'Kotlin'
+  },
+  {
+    icon: 'devicon-plain:quarkus',
+    name: 'Quarkus'
+  },
+  {
+    icon: 'devicon-plain:spring',
+    name: 'Spring'
+  },
+  {
+    icon: 'devicon-plain:nodejs-wordmark',
+    name: 'NodeJS'
+  },
+  {
+    icon: 'devicon-plain:vuejs',
+    name: 'Vue 3'
+  },
+  {
+    icon: 'devicon-plain:nuxtjs',
+    name: 'Nuxt 3'
+  },
+  {
+    icon: 'devicon-plain:javascript',
+    name: 'Javascript'
+  },
+  {
+    icon: 'devicon-plain:typescript',
+    name: 'Typescript'
+  },
+  {
+    icon: 'devicon-plain:rust',
+    name: 'Rust'
+  },
+  {
+    icon: 'devicon-plain:css3-wordmark',
+    name: 'CSS 3'
+  }
+]
 </script>
 
 <template>
