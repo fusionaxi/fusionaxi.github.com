@@ -18,7 +18,7 @@ const faqs: FAQProps[] = [{
 <template>
   <section
     id="faq"
-    class="py-24 sm:py-32 bg-gray-50 dark:bg-gray-800"
+    class="py-24 sm:py-32 "
   >
     <div class="container">
       <div class="text-center mb-8">

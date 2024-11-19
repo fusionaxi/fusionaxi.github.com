@@ -4,7 +4,6 @@
 <template>
   <section
     id="services"
-    class="bg-gray-50 dark:bg-gray-800"
   >
     <div class="container py-24 sm:py-32">
       <div class="grid lg:grid-cols-2 place-items-center lg:gap-24">

@@ -10,4 +10,6 @@ export default createConfigForNuxt({
       commaDangle: 'never'
     }
   }
+}).overrideRules({
+  'vue/multi-word-component-names': 'off'
 })
