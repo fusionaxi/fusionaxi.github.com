@@ -133,7 +133,7 @@ defineProps({
         >© 2024 Fusion Axi (Soft Axi Indonesia). All Rights Reserved.
         </span>
         <ul class="flex justify-center mt-5 space-x-5">
-          <li>
+          <!-- <li>
             <a
               href="#"
               class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
@@ -154,11 +154,12 @@ defineProps({
                 class="size-5"
               />
             </a>
-          </li>
+          </li> -->
           <li>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/fusionaxi"
               class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+              target="_blank"
             >
               <Icon
                 name="fa6-brands:linkedin"
@@ -166,7 +167,7 @@ defineProps({
               />
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a
               href="#"
               class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
@@ -176,11 +177,12 @@ defineProps({
                 class="size-5"
               />
             </a>
-          </li>
+          </li> -->
           <li>
             <a
-              href="#"
+              href="https://github.com/fusionaxi"
               class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+              target="_blank"
             >
               <Icon
                 name="fa6-brands:github"
@@ -188,7 +190,7 @@ defineProps({
               />
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a
               href="#"
               class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
@@ -198,7 +200,7 @@ defineProps({
                 class="size-5"
               />
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
