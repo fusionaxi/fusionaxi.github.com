@@ -6,7 +6,7 @@ useHead({
 
 <template>
   <div>
-    <Navbar />
+    <NavBar />
     <LandingHeroSection />
     <LandingTechStackSection />
     <LandingProductsSection />
