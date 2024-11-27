@@ -4,6 +4,7 @@ import { buttonVariants } from './ui/button'
 interface RouteProps {
   href: string
   label: string
+  children?: RouteProps[]
 }
 
 const routes: RouteProps[] = [
@@ -61,18 +62,34 @@ const routes: RouteProps[] = [
           class="hidden md:flex gap-2"
           aria-label="web-navigation"
         >
-          <a
+          <NavigationMenuItem
             v-for="(route, index) in routes"
             :key="index"
-            :href="route.href"
-            :class="[
-              `text-[17px] ${buttonVariants({
-                variant: 'ghost'
-              })}`
-            ]"
           >
-            {{ route.label }}
-          </a>
+            <template v-if="route.children">
+              <NavigationMenuTrigger
+                :href="route.href"
+                :class="[
+                  `text-[17px] ${buttonVariants({
+                    variant: 'ghost'
+                  })}`
+                ]"
+              >
+                {{ route.label }}
+              </NavigationMenuTrigger>
+            </template>
+            <a
+              v-else
+              :href="route.href"
+              :class="[
+                `text-[17px] ${buttonVariants({
+                  variant: 'ghost'
+                })}`
+              ]"
+            >
+              {{ route.label }}
+            </a>
+          </NavigationMenuItem>
         </nav>
         <div class="hidden md:flex gap-2 items-center">
           <a
