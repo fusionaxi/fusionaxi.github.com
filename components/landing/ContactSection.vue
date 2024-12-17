@@ -79,17 +79,25 @@ const handleSubmit = () => {
             </div>
           </div>
         </div>
-        <Card class="bg-moted/69 dark:bg-card">
-          <CardHeader class="text-primary text-2xl">
-&nbsp;
-          </CardHeader>
-          <CardContent>
-            <form
-              class="grid gap-4"
-              @submit.prevent="handleSubmit"
-            />
-          </CardContent>
-        </Card>
+        <LMap
+          style="height: 450px" 
+          class="z-0"
+          :zoom="10"
+          :center="[-6.267314428899778, 106.62454545388381]"
+          :use-global-leaflet="false"
+          :options="{
+            zoomControl: false,
+            dragging: null
+          }"
+        >
+          <LTileLayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution="&amp;copy; <a href=&quot;https://www.openstreetmap.org/&quot;>OpenStreetMap</a> contributors"
+            layer-type="base"
+            name="OpenStreetMap"
+          />
+          <LMarker :lat-lng="[-6.267314428899778, 106.62454545388381]" />
+        </LMap>
       </div>
     </div>
   </section>

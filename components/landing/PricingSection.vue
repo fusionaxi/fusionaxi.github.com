@@ -21,41 +21,50 @@
           <tr class="flex text-left">
             <th
               scope="row"
-              class="hidden sm:block w-1/4 p-4 border bg-gray-100 dark:bg-gray-900 border-r-0 rounded-tl border-gray-300"
+              class="hidden sm:block w-1/5 p-4 border bg-gray-100 dark:bg-gray-900 border-r-0 rounded-tl border-gray-300"
             />
             <th
               scope="col"
-              class="w-1/3 sm:w-1/4 p-4 border border-r-0 border-gray-300 font-normal"
+              class="w-1/3 sm:w-1/5 p-4 border border-r-0 border-gray-300 font-normal"
+            >
+              <h4 class="u-slab">
+                Free
+              </h4>
+              <p class="text-sm hidden sm:block">
+                Starter package without support
+              </p>
+            </th>
+            <th
+              scope="col"
+              class="w-1/3 sm:w-1/5 p-4 border border-r-0 border-gray-300 font-normal"
             >
               <h4 class="u-slab">
                 Basic
               </h4>
               <p class="text-sm hidden sm:block">
-                Private Q&A for teams
+                Basic features and support
               </p>
             </th>
             <th
               scope="col"
-              class="w-1/3 sm:w-1/4 p-4 border border-r-0 border-gray-300 font-normal"
+              class="w-1/3 sm:w-1/5 p-4 border border-r-0 border-gray-300 font-normal"
             >
               <h4 class="u-slab">
                 Business
               </h4>
               <p class="text-sm hidden sm:block">
-                Private Q&A with secure single sign-on and premium features for
-                your whole organization
+                Medium features and 5 working days support
               </p>
             </th>
             <th
               scope="col"
-              class="w-1/3 sm:w-1/4 p-4 border rounded-tr border-gray-300 font-normal"
+              class="w-1/3 sm:w-1/5 p-4 border rounded-tr border-gray-300 font-normal"
             >
               <h4 class="u-slab">
                 Enterprise
               </h4>
               <p class="text-sm hidden sm:block">
-                Your own standalone Q&A community, with enhanced security and
-                flexible hosting options
+                Tailored for your business and whole year support
               </p>
             </th>
           </tr>
@@ -65,29 +74,63 @@
           <tr class="flex text-left">
             <th
               scope="row"
-              class="w-1/4 p-4 bg-gray-100 dark:bg-gray-900 border border-r-0 border-t-0 border-gray-300 hidden sm:block"
+              class="w-1/5 p-4 bg-gray-100 dark:bg-gray-900 border border-r-0 border-t-0 border-gray-300 hidden sm:block"
             />
             <th
               scope="col"
-              class="w-1/3 sm:w-1/4 p-4 border border-r-0 border-t-0 border-gray-300 flex flex-col"
+              class="w-1/3 sm:w-1/5 p-4 border border-r-0 border-t-0 border-gray-300 flex flex-col"
             >
               <div
                 class="flex items-center mb-4 flex-wrap sm:no-wrap justify-center sm:justify-start"
               >
-                <p class="u-slab text-3xl">
-                  $5
+                <p class="u-slab text-xl">
+                  IDR0
+                </p>
+                <div class="font-normal text-xs ml-2">
+                  <p>Per user/ month</p>
+                </div>
+              </div>
+              <ul class="text-sm font-normal mb-6 hidden sm:block pl-6">
+                <li class="mb-2 tick">
+                  Free 30 day trial
+                </li>
+                <li class="mb-2 tick">
+                  4 organization members
+                </li>
+                <li class="mb-2 tick">
+                  Up to 1000 records data
+                </li>
+                <li class="tick">
+                  Up to 2 services/features
+                </li>
+              </ul>
+              <a
+                href=""
+                class="mt-auto block text-white bg-primary text-xs py-2 text-center rounded font-normal"
+                title=""
+              >Get Started</a>
+            </th>
+            <th
+              scope="col"
+              class="w-1/3 sm:w-1/5 p-4 border border-r-0 border-t-0 border-gray-300 flex flex-col"
+            >
+              <div
+                class="flex items-center mb-4 flex-wrap sm:no-wrap justify-center sm:justify-start"
+              >
+                <p class="u-slab text-xl">
+                  IDR50k
                 </p>
                 <div class="font-normal text-xs ml-2">
                   <p>Per user/ month</p>
                   <p>billed anually</p>
                 </div>
               </div>
-              <ul class="text-sm font-normal mb-6 hidden sm:block pl-8">
+              <ul class="text-sm font-normal mb-6 hidden sm:block pl-6">
                 <li class="mb-2 tick">
-                  Free 14 day trial
+                  Limited the basic features
                 </li>
                 <li class="mb-2 tick">
-                  A single team hosted on stackoverflow.com
+                  Secure and organized data access
                 </li>
                 <li class="mb-2 tick">
                   Unlimited private questions and answers
@@ -104,13 +147,13 @@
             </th>
             <th
               scope="col"
-              class="w-1/3 sm:w-1/4 p-4 border border-r-0 border-t-0 border-gray-300 flex flex-col"
+              class="w-1/3 sm:w-1/5 p-4 border border-r-0 border-t-0 border-gray-300 flex flex-col"
             >
               <div
                 class="flex items-center mb-4 flex-wrap sm:no-wrap justify-center sm:justify-start"
               >
-                <p class="u-slab text-3xl">
-                  $11
+                <p class="u-slab text-xl">
+                  IDR75k
                 </p>
                 <div class="font-normal text-xs ml-2">
                   <p>Per user/ month</p>
@@ -119,7 +162,7 @@
               </div>
               <ul class="text-sm font-normal mb-6 hidden sm:block pl-8">
                 <li class="mb-2 tick">
-                  All the features of Basic
+                  All the basic features
                 </li>
                 <li class="mb-2 tick">
                   Single sign-on (SSO), with SAML
@@ -142,18 +185,14 @@
             </th>
             <th
               scope="col"
-              class="w-1/3 sm:w-1/4 p-4 border border-t-0 border-gray-300 flex flex-col"
+              class="w-1/3 sm:w-1/5 p-4 border border-t-0 border-gray-300 flex flex-col"
             >
               <div
                 class="flex items-center mb-4 flex-wrap sm:no-wrap justify-center sm:justify-start"
               >
-                <p class="u-slab text-3xl">
-                  $17
+                <p class="u-slab text-xl">
+                  Contact Us
                 </p>
-                <div class="font-normal text-xs ml-2">
-                  <p>Per user/ month</p>
-                  <p>billed anually</p>
-                </div>
               </div>
               <ul class="text-sm font-normal mb-6 hidden sm:block pl-8">
                 <li class="mb-2 tick">
@@ -190,22 +229,27 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 bg-gray-100 dark:bg-gray-900 border border-r-0 border-gray-300 font-normal flex items-center border-b-0 sm:border-b"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 bg-gray-100 dark:bg-gray-900 border border-r-0 border-gray-300 font-normal flex items-center border-b-0 sm:border-b"
             >
               Web & email support
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 flex items-center justify-center"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 flex items-center justify-center"
+            >
+              No support
+            </td>
+            <td
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 flex items-center justify-center"
             >
               Standard support
             </td>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 flex items-center justify-center"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 flex items-center justify-center"
             >
               Priority support
             </td>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border flex items-center justify-center text-center"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border flex items-center justify-center text-center"
             >
               Priority support with dedicated CSM
             </td>
@@ -213,17 +257,20 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 bg-gray-100 dark:bg-gray-900 p-4 border-gray-300 border border-r-0 border-t-0 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 bg-gray-100 dark:bg-gray-900 p-4 border-gray-300 border border-r-0 border-t-0 font-normal"
             >
               Phone & video support
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
+            />
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -242,20 +289,20 @@
               </svg>
             </td>
           </tr>
-          <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
+          <!-- <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Dedicated customer success team
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -277,15 +324,15 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               99.5% uptime SLA
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -304,7 +351,7 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -326,17 +373,17 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Dedicated community development program
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -366,22 +413,22 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 bg-gray-100 dark:bg-gray-900 border border-r-0 border-gray-300 font-normal flex items-center border-b-0 sm:border-b"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 bg-gray-100 dark:bg-gray-900 border border-r-0 border-gray-300 font-normal flex items-center border-b-0 sm:border-b"
             >
               API
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 flex items-center justify-center"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 flex items-center justify-center"
             >
               Read
             </td>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 flex items-center justify-center"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 flex items-center justify-center"
             >
               Read / Write
             </td>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border flex items-center justify-center text-center"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border flex items-center justify-center text-center"
             >
               Read / Write
             </td>
@@ -389,12 +436,12 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 bg-gray-100 dark:bg-gray-900 p-4 border-gray-300 border border-r-0 border-t-0 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 bg-gray-100 dark:bg-gray-900 p-4 border-gray-300 border border-r-0 border-t-0 font-normal"
             >
               Analytics
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -414,7 +461,7 @@
               </svg>
             </td>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -433,7 +480,7 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -455,15 +502,15 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Reporting dashboard
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -482,7 +529,7 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -504,12 +551,12 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Single-team permissions
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -529,7 +576,7 @@
               </svg>
             </td>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -548,7 +595,7 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -570,17 +617,17 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Multi-team permission
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -602,20 +649,20 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Single sign-on (SSO)
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 text-center"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 text-center"
             >
               SAML
             </td>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0 text-center"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0 text-center"
             >
               SAML, AD
             </td>
@@ -623,15 +670,15 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Invoicing
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -650,7 +697,7 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -680,11 +727,11 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 bg-gray-100 dark:bg-gray-900 p-4 border-gray-300 border border-r-0 font-normal border-b-0 sm:border-b"
+              class="min-w-full sm:min-w-0 sm:w-1/5 bg-gray-100 dark:bg-gray-900 p-4 border-gray-300 border border-r-0 font-normal border-b-0 sm:border-b"
             >
               Hosted on stackoverflow.com
             </th>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -702,7 +749,7 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -720,22 +767,22 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border" />
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border" />
           </tr>
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Our managed cloud
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -757,17 +804,17 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Your cloud
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -789,17 +836,17 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Your servers
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -829,11 +876,11 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 bg-gray-100 dark:bg-gray-900 p-4 border-gray-300 border border-r-0 border-b-0 sm:border-b font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 bg-gray-100 dark:bg-gray-900 p-4 border-gray-300 border border-r-0 border-b-0 sm:border-b font-normal"
             >
               Logo and colour
             </th>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -851,7 +898,7 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -869,7 +916,7 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -891,12 +938,12 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Tags
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -916,7 +963,7 @@
               </svg>
             </td>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -935,7 +982,7 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -957,17 +1004,17 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Theme
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -989,17 +1036,17 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               Privileges
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
-            <td class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0">
+            <td class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -1021,18 +1068,18 @@
           <tr class="flex text-left text-sm flex-wrap sm:no-wrap">
             <th
               scope="col"
-              class="min-w-full sm:min-w-0 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
+              class="min-w-full sm:min-w-0 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0 bg-gray-100 dark:bg-gray-900 font-normal"
             >
               User help
             </th>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-r-0 border-t-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-r-0 border-t-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0 text-center"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0 text-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1051,15 +1098,15 @@
                 <path d="M20 6L9 17l-5-5" />
               </svg>
             </td>
-          </tr>
+          </tr> -->
         </tbody>
         <tfoot>
           <tr class="flex text-left text-sm">
             <td
-              class="w-1/4 hidden sm:block p-4 border-gray-300 border border-t-0 text-center bg-gray-100 dark:bg-gray-900 border-r-0"
+              class="w-1/5 hidden sm:block p-4 border-gray-300 border border-t-0 text-center bg-gray-100 dark:bg-gray-900 border-r-0"
             />
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0 text-center border-r-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0 text-center border-r-0"
             >
               <a
                 href=""
@@ -1068,7 +1115,16 @@
               >Get Started</a>
             </td>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0 text-center border-r-0"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0 text-center border-r-0"
+            >
+              <a
+                href=""
+                class="mt-auto block text-white bg-primary text-xs py-2 text-center rounded font-normal"
+                title=""
+              >Get Started</a>
+            </td>
+            <td
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0 text-center border-r-0"
             >
               <a
                 href=""
@@ -1077,7 +1133,7 @@
               >Request a demo</a>
             </td>
             <td
-              class="w-1/3 sm:w-1/4 p-4 border-gray-300 border border-t-0 text-center"
+              class="w-1/3 sm:w-1/5 p-4 border-gray-300 border border-t-0 text-center"
             >
               <a
                 href=""

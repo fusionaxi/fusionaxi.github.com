@@ -15,7 +15,7 @@ const products: ProductPros[] = [
   },
   {
     icon: 'lucide:chart-no-axes-combined',
-    title: 'Dashboarding Solution',
+    title: 'Business Solution',
     description:
       'Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.',
     link: 'https://bi.fusionaxi.com'

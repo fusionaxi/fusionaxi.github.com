@@ -20,9 +20,9 @@ import { buttonVariants } from '../ui/button'
 
         <div class="flex flex-col">
           <CardTitle class="text-lg">
-            John Doe
+            Client 01
           </CardTitle>
-          <CardDescription>@john_doe</CardDescription>
+          <CardDescription>@client01</CardDescription>
         </div>
       </CardHeader>
 
@@ -39,7 +39,7 @@ import { buttonVariants } from '../ui/button'
           class="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
         >
         <CardTitle class="text-center">
-          Leo Miranda
+          Client 02
         </CardTitle>
         <CardDescription class="font-normal text-primary">
           Frontend Developer
@@ -121,22 +121,22 @@ import { buttonVariants } from '../ui/button'
             variant="secondary"
             class="text-sm text-primary"
           >
-            Most popular
+            Starter Package
           </Badge>
         </CardTitle>
         <div>
-          <span class="text-3xl font-bold">$0</span>
+          <span class="text-3xl font-bold">IDR0</span>
           <span class="text-muted-foreground"> /month</span>
         </div>
 
         <CardDescription>
-          Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+          Try some starter and standard package and features to enable your business
         </CardDescription>
       </CardHeader>
 
       <CardContent>
         <Button class="w-full">
-          Start Free Trial
+          Start Free Now
         </Button>
       </CardContent>
 
@@ -146,9 +146,9 @@ import { buttonVariants } from '../ui/button'
         <div class="space-y-2">
           <span
             v-for="(item, index) in [
-              '4 Team member',
-              '4 GB Storage',
-              'Up to 6 pages'
+              '4 organization members',
+              'Up to 1000 records data',
+              'Up to 2 services/features'
             ]"
             :key="index"
             class="flex items-center"
@@ -177,10 +177,9 @@ import { buttonVariants } from '../ui/button'
           />
         </div>
         <div>
-          <CardTitle>Light & dark mode</CardTitle>
+          <CardTitle>Theme mode</CardTitle>
           <CardDescription class="text-md mt-2">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-            natusm.
+            Change the theme based on the system or user selection based on preference.
           </CardDescription>
         </div>
       </CardHeader>

@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import image from '@rollup/plugin-image'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
@@ -6,13 +8,14 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     'shadcn-nuxt',
     '@nuxtjs/color-mode',
-    'nuxt-marquee'
+    'nuxt-marquee',
+    '@nuxtjs/leaflet'
   ],
   devtools: { enabled: true },
   colorMode: {
     classSuffix: '',
     storage: 'localStorage',
-    storageKey: 'nuxt-color-mode'
+    storageKey: 'fusionaxi.theme.mode'
   },
   runtimeConfig: {
     public: {
@@ -28,6 +31,12 @@ export default defineNuxtConfig({
     }
   },
   compatibilityDate: '2024-11-15',
+  nitro: {
+    preset: 'cloudflare-pages',
+    rollupConfig: {
+      plugins: [image()]
+    }
+  },
   shadcn: {
     prefix: '',
     componentDir: './components/ui'
